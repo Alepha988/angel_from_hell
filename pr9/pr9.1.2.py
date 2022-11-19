@@ -1,4 +1,4 @@
-f = open('C:\\Users\\Alepha89\\PycharmProjects\\Yp\\Aleksey_Morgunov_vvod')
+f = open('C:\\Users\\Alepha98\\PycharmProjects\\Yp\\Aleksey_Morgunov_vvod')
 B = [line.replace("\n", "").split() for line in f]
 n = int(input())
 m = int(input())
@@ -27,5 +27,5 @@ for i in range(n):
     tmp2 = B[i][m - 1]
     B[i][m - 1] = B[i][b]
     B[i][b] = tmp2
-file = open('C:\\Users\\Alepha89\\PycharmProjects\\Yp\\Aleksey_Morgunov_vivod', 'w')
+file = open('C:\\Users\\Alepha98\\PycharmProjects\\Yp\\Aleksey_Morgunov_vivod', 'w')
 file.write(B)
