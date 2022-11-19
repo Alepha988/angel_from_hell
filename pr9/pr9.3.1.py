@@ -1,4 +1,4 @@
-f = open('C:\\Users\\Alepha89\\PycharmProjects\\Yp\\Aleksey_Morgunov_vvod')
+f = open('C:\\Users\\Alepha98\\PycharmProjects\\Yp\\Aleksey_Morgunov_vvod')
 a = [line.replace("\n", "").split() for line in f]
 
 flag = 1
@@ -12,7 +12,7 @@ if flag == 1:
 else:
     print('Not OK')
 
-with open('C:\\Users\\Alepha89\\PycharmProjects\\Yp\\Aleksey_Morgunov_vivod','w') as f:
+with open('C:\\Users\\Alepha98\\PycharmProjects\\Yp\\Aleksey_Morgunov_vivod','w') as f:
     if flag == 1:
         f.write('Thats OK')
     else:
